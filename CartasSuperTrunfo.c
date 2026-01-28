@@ -12,7 +12,7 @@ int main(){
 */
     char estado1; 
     char codigodacarta1[4];  
-    char cidade1[20];
+    char cidade1[20];A
     int populacao1;
     float area1;   
     float pib1; 
@@ -35,7 +35,7 @@ int main(){
 
     // Código da carta 
     printf("Para o código da carta digite letra do estado seguida de um número de 01 a 04 (ex: A01, B03):");
-    scanf("%s", &codigodacarta1);
+    scanf("%s", codigodacarta1);
 
     //Nome da cidade
     printf("Digite o nome da cidade: ");
